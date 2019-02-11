@@ -8,7 +8,43 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1 class='hello-world'></h1>
+     <header>
+        <h1>Play Blackjack</h1>
+      </header>
+      <main>
+  <section class = "instructions">
+    <h2>Hit, Stay, or Retry?</h2>
+    <div>
+      <button class="hit-button">Hit</button>
+      <button class="stay-button">Stay</button>
+      <button class="reset-button">Retry</button>
+    </div>
+    
+  </section>
+  <section class="game">
+    <section class="card-section">
+      <ul></ul>
+      <div class="above-cards">
+        <p class="hand-title">Player Hand:</p>
+        <p class="player-display-total"></p>
+      </div>
+      <div class="player-hand">
+      </div>
+    </section>
+  <section class="card-section">
+      <ul></ul>
+    <div class="above-cards">
+      <p class="hand-title">Dealer Hand:</p>
+      <p class="dealer-display-total"></p>
+    </div>
+    <div class="dealer-hand"></div>
+    <ul class="visible-hand "></ul>
+  </section>
+  </section>
+      </main>
+      <footer>
+        <h2 class="results">Results!!!</h2>
+      </footer>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
